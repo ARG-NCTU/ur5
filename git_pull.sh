@@ -63,5 +63,21 @@ if [ "$CONFLICTS" -gt 0 ] ; then
    return 1
 fi
 
+
+BRANCH=master
+
+echo "-----------------------------------------------------------------------"
+echo "-------------------------pull arm_operation ---------------------------"
+echo "-----------------------------------------------------------------------"
+cd $current_path/arm_operation
+git checkout $BRANCH
+git pull
+
+CONFLICTS=$(git ls-files -u | wc -l)
+if [ "$CONFLICTS" -gt 0 ] ; then
+   echo "There is conflict in arm_operation. Aborting"
+   return 1
+fi
+
 cd $current_path
 return 0
