@@ -48,7 +48,7 @@ if [ "$CONFLICTS" -gt 0 ] ; then
    return 1
 fi
 
-BRANCH=master
+BRANCH=kinetic-devel
 
 echo "-----------------------------------------------------------------------"
 echo "-------------------------pull ur_modern_driver -------------------------"
