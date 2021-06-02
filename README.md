@@ -6,6 +6,7 @@ Robot repo including:
 - robotiq
 - universal_robot
 - ur_modern_driver
+- arm_operation
 
 ## clone repo
 ```
