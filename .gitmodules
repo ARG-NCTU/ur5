@@ -1,9 +1,6 @@
 [submodule "robotiq"]
 	path = robotiq
 	url = git@github.com:ros-industrial/robotiq.git
-[submodule "universal_robot"]
-	path = universal_robot
-	url = git@github.com:ros-industrial/universal_robot.git
 [submodule "ur_modern_driver"]
 	path = ur_modern_driver
 	url = git@github.com:ros-industrial/ur_modern_driver.git
