@@ -7,3 +7,6 @@
 [submodule "arm_operation"]
 	path = arm_operation
 	url = git@github.com:sean85914/arm_operation.git
+[submodule "universal_robot"]
+	path = universal_robot
+	url = https://github.com/ARG-NCTU/universal_robot.git
