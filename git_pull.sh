@@ -33,7 +33,7 @@ if [ "$CONFLICTS" -gt 0 ] ; then
    return 1
 fi
 
-BRANCH=melodic-devel
+BRANCH=kinetic-devel
 
 echo "-----------------------------------------------------------------------"
 echo "-------------------------pull universal_robot -------------------------"
